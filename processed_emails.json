@@ -1,0 +1,70 @@
+{
+  "19b8e887e6f5c168": {
+    "processed_at": "2026-01-05T17:50:58.678237",
+    "subject": "Delivery Status Notification (Failure)"
+  },
+  "19b8e7807ee0eb29": {
+    "processed_at": "2026-01-05T17:50:59.092531",
+    "subject": "notification"
+  },
+  "19b8d546122d51d9": {
+    "processed_at": "2026-01-05T17:50:59.509401",
+    "subject": "Delivery Status Notification (Failure)"
+  },
+  "19b8d5432e9f34f3": {
+    "processed_at": "2026-01-05T17:51:00.028080",
+    "subject": "contract"
+  },
+  "19b82e2173a15e68": {
+    "processed_at": "2026-01-05T17:51:00.438507",
+    "subject": "Fiche de paie Janvier"
+  },
+  "19b82e18182d4e9e": {
+    "processed_at": "2026-01-05T17:51:00.873713",
+    "subject": "Fwd: Payroll statement January 2025"
+  },
+  "19b82e07797a9ce8": {
+    "processed_at": "2026-01-05T17:51:01.358899",
+    "subject": "Delivery Status Notification (Failure)"
+  },
+  "19b82e04b0dbde94": {
+    "processed_at": "2026-01-05T17:51:01.872571",
+    "subject": "Payroll statement January 2025"
+  },
+  "19b82df846e3e7e2": {
+    "processed_at": "2026-01-05T17:51:02.271746",
+    "subject": "Facture Janvier 2025"
+  },
+  "19b82de784dc1fd1": {
+    "processed_at": "2026-01-05T17:51:02.689010",
+    "subject": "Invoice for January services"
+  },
+  "19b64b18b295476e": {
+    "processed_at": "2026-01-05T17:51:03.126074",
+    "subject": "Fiche de paie d\u00e9cembre"
+  },
+  "19b64b137dd26d52": {
+    "processed_at": "2026-01-05T17:51:03.523710",
+    "subject": "Payroll statement December 2024"
+  },
+  "19b64b0c04cd481d": {
+    "processed_at": "2026-01-05T17:51:03.893738",
+    "subject": "Facture d\u00e9cembre 2024"
+  },
+  "19b64b0167e1be63": {
+    "processed_at": "2026-01-05T17:51:04.347406",
+    "subject": "Invoice for December services"
+  },
+  "1987fcef3be6ab7d": {
+    "processed_at": "2026-01-05T17:51:04.785594",
+    "subject": "U\u017esakymas nr. MT000040253 pristatytas\n"
+  },
+  "19619de20778f900": {
+    "processed_at": "2026-01-05T17:51:05.246269",
+    "subject": "Google Cloud Platform & APIs: Your invoice is available"
+  },
+  "195f41d34b9d6f80": {
+    "processed_at": "2026-01-05T17:51:05.763906",
+    "subject": "Google Cloud Platform & APIs: Your invoice is available for 01D765-440BF8-4552D9"
+  }
+}

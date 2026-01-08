@@ -1,0 +1,52 @@
+# Phase 1: Core Automation Dependencies
+
+# AI Frameworks & Agents
+crewai
+crewai-tools
+
+# LangChain RAG (better Ollama support than LlamaIndex)
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+
+# LlamaIndex & RAG (keeping for compatibility)
+llama-index-core
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+llama-index-vector-stores-chroma
+ollama==0.5.3
+
+# Vector Store
+chromadb
+
+# Google APIs (Gmail)
+google-api-python-client==2.150.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# File Processing & OCR
+python-magic==0.4.27
+PyPDF2==3.0.1
+Pillow==10.4.0
+pathlib==1.0.1
+
+# Dashboard (Phase 3)
+streamlit
+pandas
+plotly
+
+# API Backend (Phase 4)
+fastapi==0.116.1
+uvicorn==0.35.0
+APScheduler==3.10.4
+
+# Configuration & Logging
+python-dotenv==1.1.1
+pydantic==2.11.7
+pydantic-settings
+colorlog
+
+# Utilities
+python-dateutil==2.9.0

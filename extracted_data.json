@@ -1,0 +1,199 @@
+{
+  "invoices": [
+    {
+      "customer_name": "Liu Yang",
+      "invoice_number": "INV-2025-003",
+      "invoice_date": "2025-01-03",
+      "due_date": null,
+      "total_amount": 2750.0,
+      "tax_amount": 950.0,
+      "currency": "EUR",
+      "line_items": [
+        {
+          "description": "Accounting Services - January 2025",
+          "amount": 1800.0
+        },
+        {
+          "description": "Tax Consulting",
+          "amount": 950.0
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-01/Invoice_2025_003_TEST.pdf",
+      "file_name": "Invoice_2025_003_TEST.pdf",
+      "extracted_at": "2026-01-06T16:28:56.559590"
+    },
+    {
+      "customer_name": "Zhang Li",
+      "invoice_number": "FA-2025-008",
+      "invoice_date": "2025-01-03",
+      "due_date": null,
+      "total_amount": 2520.0,
+      "tax_amount": 420.0,
+      "currency": "EUR",
+      "line_items": [
+        {
+          "description": "Services de compt\u00e9abilit\u00e9 - Janvier 2025",
+          "amount": 2100.0
+        },
+        {
+          "description": "TVA 20%",
+          "amount": 420.0
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-01/Facture_2025_008_TEST.pdf",
+      "file_name": "Facture_2025_008_TEST.pdf",
+      "extracted_at": "2026-01-06T16:30:00.499129"
+    },
+    {
+      "customer_name": "Julija Metelica",
+      "invoice_number": "MT000037126",
+      "invoice_date": "2025-08-06",
+      "due_date": null,
+      "total_amount": 14.29,
+      "tax_amount": 2.13,
+      "currency": null,
+      "line_items": [
+        {
+          "description": "LEPICOL milteliai, 180 g",
+          "quantity": 1,
+          "unit_price": 12.3,
+          "discount": 12.29,
+          "tax": 2.13,
+          "total": 14.29
+        },
+        {
+          "description": "LP Express",
+          "quantity": 1,
+          "unit_price": 1.99,
+          "discount": 0,
+          "tax": 0,
+          "total": 1.99
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-08/invoice_MT000037126.pdf",
+      "file_name": "invoice_MT000037126.pdf",
+      "extracted_at": "2026-01-06T16:31:11.388041"
+    },
+    {
+      "customer_name": "Liu Yang",
+      "invoice_number": "INV-2025-003",
+      "invoice_date": "2025-01-03",
+      "due_date": null,
+      "total_amount": 2750.0,
+      "tax_amount": null,
+      "currency": "\u20ac",
+      "line_items": [
+        {
+          "description": "Accounting Services - January 2025",
+          "amount": 1800.0
+        },
+        {
+          "description": "Tax Consulting",
+          "amount": 950.0
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-01/Invoice_2025_003_TEST.pdf",
+      "file_name": "Invoice_2025_003_TEST.pdf",
+      "extracted_at": "2026-01-06T17:01:40.321160"
+    },
+    {
+      "customer_name": "Zhang Li",
+      "invoice_number": "FA-2025-008",
+      "invoice_date": "2025-01-03",
+      "due_date": null,
+      "total_amount": 2520,
+      "tax_amount": 420,
+      "currency": "\u20ac",
+      "line_items": [
+        {
+          "description": "Services de comptabilit\u00e9 - Janvier 2025",
+          "amount": 2100
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-01/Facture_2025_008_TEST.pdf",
+      "file_name": "Facture_2025_008_TEST.pdf",
+      "extracted_at": "2026-01-06T17:01:54.280263"
+    },
+    {
+      "customer_name": "Julija Metelica",
+      "invoice_number": "MT000040253",
+      "invoice_date": "2025-08-06",
+      "due_date": null,
+      "total_amount": 14.29,
+      "tax_amount": 2.13,
+      "currency": "\u20ac",
+      "line_items": [
+        {
+          "description": "LEPICOL milteliai, 180 g",
+          "amount": 12.3
+        },
+        {
+          "description": "LP Express",
+          "amount": 1.99
+        }
+      ],
+      "file_path": "test_drive/invoice/2025-08/invoice_MT000037126.pdf",
+      "file_name": "invoice_MT000037126.pdf",
+      "extracted_at": "2026-01-06T17:02:14.381924"
+    }
+  ],
+  "payroll": [
+    {
+      "employee_name": "Zhou Min",
+      "employee_id": "EMP-2025-022",
+      "period_start": "2025-01-01",
+      "period_end": "2025-01-31",
+      "gross_pay": 3800.0,
+      "deductions": 914.0,
+      "net_pay": 2886.0,
+      "payment_date": "2025-01-31",
+      "currency": "\u20ac",
+      "file_path": "test_drive/payroll/2025-01/Payroll_Jan2025_ZhouMin_TEST.jpg",
+      "file_name": "Payroll_Jan2025_ZhouMin_TEST.jpg",
+      "extracted_at": "2026-01-06T16:32:38.189263"
+    },
+    {
+      "employee_name": "Wang Hua",
+      "employee_id": "EMP-2024-015",
+      "period_start": "2024-12-01",
+      "period_end": "2024-12-31",
+      "gross_pay": 3500.0,
+      "deductions": 830.0,
+      "net_pay": 2660.0,
+      "payment_date": "2024-12-15",
+      "currency": "EUR",
+      "file_path": "test_drive/payroll/2024-12/Payroll_Dec2024_WangHua.jpg",
+      "file_name": "Payroll_Dec2024_WangHua.jpg",
+      "extracted_at": "2026-01-06T16:34:23.400408"
+    },
+    {
+      "employee_name": "Zhou Min",
+      "employee_id": "EMP-2025-022",
+      "period_start": "2025-01-01",
+      "period_end": "2025-01-31",
+      "gross_pay": 3800,
+      "deductions": 914,
+      "net_pay": 2886,
+      "payment_date": null,
+      "currency": "\u20ac",
+      "file_path": "test_drive/payroll/2025-01/Payroll_Jan2025_ZhouMin_TEST.jpg",
+      "file_name": "Payroll_Jan2025_ZhouMin_TEST.jpg",
+      "extracted_at": "2026-01-06T17:03:37.155998"
+    },
+    {
+      "employee_name": "Wang Hua",
+      "employee_id": "EMP-2024-015",
+      "period_start": null,
+      "period_end": null,
+      "gross_pay": 3500.0,
+      "deductions": 840.0,
+      "net_pay": 2660.0,
+      "payment_date": "2024-12-31",
+      "currency": "\u20ac",
+      "file_path": "test_drive/payroll/2024-12/Payroll_Dec2024_WangHua.jpg",
+      "file_name": "Payroll_Dec2024_WangHua.jpg",
+      "extracted_at": "2026-01-06T17:04:57.701165"
+    }
+  ],
+  "contracts": []
+}

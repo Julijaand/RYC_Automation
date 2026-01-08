@@ -1,0 +1,75 @@
+[Unit]
+Description=RYC Document Automation Service
+After=network.target
+
+[Service]
+Type=simple
+User=ryc
+WorkingDirectory=/path/to/RYC_Automation
+Environment="PATH=/path/to/RYC_Automation/venv/bin"
+ExecStart=/path/to/RYC_Automation/venv/bin/python -m src.main
+
+# Restart policy
+Restart=on-failure
+RestartSec=5m
+
+# Logging
+StandardOutput=append:/path/to/RYC_Automation/logs/systemd.log
+StandardError=append:/path/to/RYC_Automation/logs/systemd_error.log
+
+# Security (optional)
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+
+# ============================================
+# Installation Instructions:
+# ============================================
+#
+# 1. Edit this file and replace:
+#    - /path/to/RYC_Automation -> actual project path
+#    - User=ryc -> your Linux username
+#
+# 2. Copy to systemd directory:
+#    sudo cp ryc-automation.service /etc/systemd/system/
+#
+# 3. Reload systemd:
+#    sudo systemctl daemon-reload
+#
+# 4. Enable service (start on boot):
+#    sudo systemctl enable ryc-automation.service
+#
+# 5. Start service:
+#    sudo systemctl start ryc-automation.service
+#
+# 6. Check status:
+#    sudo systemctl status ryc-automation.service
+#
+# 7. View logs:
+#    sudo journalctl -u ryc-automation.service -f
+#
+# 8. Stop service:
+#    sudo systemctl stop ryc-automation.service
+#
+# ============================================
+# For Timer (scheduled execution):
+# ============================================
+#
+# Create ryc-automation.timer file:
+#
+# [Unit]
+# Description=RYC Automation Timer - Run every 30 minutes
+#
+# [Timer]
+# OnBootSec=5min
+# OnUnitActiveSec=30min
+#
+# [Install]
+# WantedBy=timers.target
+#
+# Then:
+# sudo systemctl enable ryc-automation.timer
+# sudo systemctl start ryc-automation.timer
+#
